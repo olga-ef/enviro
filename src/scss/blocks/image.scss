@@ -1,0 +1,108 @@
+.image__container {
+	position: relative;
+}
+
+.image__container img {
+	display: block;
+	margin: 0 auto;
+}
+
+.note {
+	display: flex;
+	align-items: center;
+	width: 670px;
+	margin: 0;
+	padding: 40px 50px;
+	color: #ffffff;
+	font-size: 0px;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	line-height: 39px;
+	text-align: left;
+	background-color: rgba(35, 185, 118, 0.85);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	z-index: 10;
+}
+
+.image__container .note {
+	position: absolute;
+	bottom: 50%;
+	right: -510px;
+	transform: translateY(50%);
+}
+
+.note__icon {
+	min-width: 80px;
+	height: 80px;
+	margin-right: 45px;
+	background-repeat: no-repeat;
+}
+
+.note__icon--tel {
+	background-image: url("../img/tel-icon.png");
+}
+
+.note__icon--sert {
+	background-image: url("../img/certificate.png");
+}
+	
+.image__container .note__text {
+	max-width: 435px;
+}
+
+@media(max-width: 1087px) {
+	.image__container {
+		text-align: center;
+	}
+
+	.image__container .note {
+		width: 510px;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.image__container .note__text {
+		max-width: 250px;
+	}
+}
+
+@media(max-width: 767px) {
+	.image__container .note {
+		width: 100%;
+		left: 0;
+		transform: translateX(0);
+	}
+
+	.image__container img {
+		width: 100%;
+	}
+
+	.image__container .note__text {
+		max-width: 400px;
+		min-width: 0px;
+	}
+}
+
+@media(max-width: 500px) {
+.note {
+		padding: 20px;
+	}
+	.note__icon {
+		margin-right: 10px;
+		min-width: 62px;
+		height: 64px;
+		background-size: cover;
+	}
+
+.note__text {
+		font-size: 16px;
+		line-height: 26px;
+	}
+} 
+
+
+
+
+

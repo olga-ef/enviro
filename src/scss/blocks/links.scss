@@ -1,0 +1,103 @@
+.links {
+	margin-top: -88px;
+	margin-bottom: 100px;
+} 
+
+.links .container {
+	padding: 160px 110px 15px 110px;
+	background-color: #f9f9f9;
+	
+}
+
+.links .column {
+	margin-bottom: 85px;
+}
+
+.link {
+	height: 100%;
+	position: relative;
+	padding: 40px 60px 140px 60px;
+	background-color: #f2f3f5;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+} 
+
+.link__title {
+	color: #23b976;
+	font-family: $title-font;
+	color: $green;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.link__subtitle {
+	margin-bottom: 15px;
+	color: $dark;
+	font-family: $title-font;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.43px;
+	line-height: 24px;
+}
+
+.link__desc {
+	color: $dark;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	line-height: 30px;
+}
+
+.link__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -60px;
+	width: 150px;
+	height: 150px;
+	background-color: #fff;
+	border: 1px solid #f2f3f5;
+} 
+
+.lonk__logo img {
+	display: block;
+	width: 100%;
+}
+
+@media(max-width: 1087px) {
+	.links .container {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
+
+@media(max-width: 700px) {
+	.links .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.link__title {
+		font-size: 20px;
+	}
+
+	.link {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 80px;
+
+	}
+	
+	.link__desc {
+		font-size: 15px;
+	}
+
+	.link__logo {
+		width: 120px;
+		height: 120px;
+		padding: 10px;
+	}
+
+}

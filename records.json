@@ -1,0 +1,147 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-webpack-plugin/default_index.ejs": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/webpack/buildin/module.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          1
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js!node_modules/postcss-loader/src/index.js??ref--5-2!src/css/main.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/src/index.js??ref--5-2!src/css/main.css": 0,
+          "node_modules/css-loader/lib/url/escape.js": 1,
+          "node_modules/css-loader/lib/css-base.js": 2,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Regular.woff": 3,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Regular.ttf": 4,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Regular.eot": 5,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Bold.woff": 6,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Bold.ttf": 7,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Bold.eot": 8,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Italic.woff": 9,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Italic.ttf": 10,
+          "node_modules/file-loader/dist/cjs.js??ref--7!src/fonts/OpenSans/OpenSans-Italic.eot": 11,
+          "node_modules/file-loader/dist/cjs.js??ref--6-0!node_modules/image-webpack-loader/index.js??ref--6-1!src/img/catalog-item-01.png": 12
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "node_modules/react/index.js": 0,
+      "node_modules/object-assign/index.js": 1,
+      "multi ./src/css/main.css ./src/index.js": 2,
+      "node_modules/mini-css-extract-plugin/dist/loader.js??ref--5-0!node_modules/css-loader/index.js!node_modules/postcss-loader/src/index.js??ref--5-2!src/css/main.css": 3,
+      "css node_modules/css-loader/index.js!node_modules/postcss-loader/src/index.js??ref--5-2!src/css/main.css 0": 4,
+      "node_modules/babel-loader/lib/index.js??ref--4!src/index.js": 5,
+      "node_modules/babel-loader/lib/index.js??ref--4!src/component.js": 6,
+      "node_modules/babel-loader/lib/index.js??ref--4!src/shake.js": 7,
+      "node_modules/react/cjs/react.production.min.js": 8,
+      "node_modules/react-dom/index.js": 9,
+      "node_modules/react-dom/cjs/react-dom.production.min.js": 10,
+      "node_modules/schedule/index.js": 11,
+      "node_modules/schedule/cjs/schedule.production.min.js": 12,
+      "node_modules/babel-loader/lib/index.js??ref--4!src/lazy.js": 13
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13
+    }
+  },
+  "chunks": {
+    "byName": {
+      "main": 0,
+      "vendor": 2,
+      "manifest": 3
+    },
+    "bySource": {
+      "0 node_modules/babel-loader/lib/index.js??ref--4!src/component.js ./lazy": 1
+    },
+    "usedIds": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "html-webpack-plugin for \"another\\index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-webpack-plugin/default_index.ejs": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/webpack/buildin/module.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
+}

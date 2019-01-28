@@ -1,0 +1,22 @@
+@import "../../node_modules/bulma/bulma";
+
+@import "global/mixins.scss";
+@import "global/variables.scss";
+
+@import "global/normalize.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+
+@import "blocks/header.scss";
+@import "blocks/main-screen.scss";
+@import "blocks/btn-more.scss";
+@import "blocks/slider.scss";
+@import "blocks/btn-scroll.scss";
+@import "blocks/services.scss";
+@import "blocks/footer.scss";
+@import "blocks/page-title.scss";
+@import "blocks/page-content.scss";
+@import "blocks/image.scss";
+@import "blocks/links.scss";
+@import "blocks/contact-form.scss";
+@import "blocks/spetialization.scss";

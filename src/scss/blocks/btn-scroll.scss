@@ -1,0 +1,38 @@
+.btn-scroll {
+	display: block;
+	background-color: $green;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	text-transform: uppercase;
+}
+
+.btn-scroll--down {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 78px;
+	height: 116px;
+	background-image: url("../img/arrow-down.svg");
+
+}
+
+.btn-scroll--up {
+	width: 78px;
+	height: 75px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-image: url("../img/arrow-up.svg");
+	background-position: top 15px center;
+}
+
+@media(max-width: 1087px) {
+	.btn-scroll--down  {
+		display: none;
+	}
+}

@@ -1,0 +1,11 @@
+.page-content .container {
+	padding: 120px 109px 65px ;
+}
+
+@media(max-width: 767px) {
+	.page-content .container {
+		padding-top: 140px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

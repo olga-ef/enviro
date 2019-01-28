@@ -1,0 +1,69 @@
+.spetialization {
+	padding-top: 120px;
+}
+
+.spetialization .container {
+	padding-right: 0px;
+}
+
+.spetialization .columns .column {
+	margin-bottom: 20px;
+}
+
+.spetialization .columns .column:first-child {
+	margin-top: -370px;
+}
+
+.spetialization .title {
+	margin-bottom: 70px;
+
+}
+
+.spetialization ol {
+	margin-left: 30px;
+}
+
+.spetialization .note {
+	width: 100%;
+}
+
+@media(max-width: 1137px) {
+	.spetialization .container {
+		padding-left: 50px;
+	}
+}
+
+@media(max-width: 1087px) {
+	.spetialization .container {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.spetialization img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.spetialization .columns .column:first-child {
+		margin-top: 0px;
+	}
+}
+
+@media(max-width: 767px) {
+	.spetialization .container {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 150px;
+	}
+
+	.spetialization .columns {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.spetialization .columns.is-variable .column {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+} 

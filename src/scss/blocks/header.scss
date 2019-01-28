@@ -1,0 +1,167 @@
+.header {
+}
+.navbar {
+	position: relative;
+	background-color: transparent;
+	padding-left: 10px;
+	padding-right: 65px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-brand {
+	padding-left: 24px;
+}
+
+a.navbar-item {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: $dark;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.43px;
+
+	&:hover {
+		background: transparent;
+		color: $dark-blue;
+	}
+
+	&--blue {
+		color: $dark-blue;
+	}
+
+	&--blue:hover {
+		color: $dark-blue;
+	}
+
+	&--light {
+		font-weight: 400;
+	}
+}
+
+a.navbar-link {
+	font-weight: 700;
+
+	&:hover {
+		
+	}
+}
+
+a.navbar-item.is-active, 
+.navbar-item.has-dropdown:hover .navbar-link,
+.navbar-item.has-dropdown:hover .navbar-link.is-active {
+	background-color: transparent;
+}
+
+a.navbar-item:hover::after,
+a.navbar-item.is-active::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 30px);
+	height: 2px;
+	background-color: $dark-blue;
+};
+
+.navbar-link:not(.is-arrowless)::after {
+	border-color: $dark-blue;
+}
+
+.navbar-dropdown {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	padding-bottom: 0;
+	padding-top: 0;
+	border: 1px solid #ffffff;
+	border-bottom: 2px solid rgba(35, 185, 118, 0.7);
+	background-color: $gray;
+	border-radius: 0;
+}
+
+.navbar-dropdown a.navbar-item {
+	color: $dark;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+
+	&:hover {
+		background-color: rgba(35, 185, 118, 0.4);
+
+		&::after {
+			display: none;
+		}
+	}
+}
+
+.navbar-burger span {
+	width: 29px;
+	height: 2px;
+	margin-bottom: 3px;
+	background-color: $dark-blue;
+	left: calc(50% - 15px);
+}
+.navbar-item .fa-link {
+	margin-right: 5px;
+}
+
+// header-inner 
+
+.header--inner .navbar {
+	background-image: url("../img/header.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+@media (max-width: 1087px) {
+	.header--inner .navbar {
+		background-image: url("../img/header-tablet.png");
+		background-size: 100%;
+	}
+
+	.navbar {
+		padding-right: 15px;
+	}
+
+	.navbar-menu {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		z-index: 1000;
+	}
+
+	.navbar-dropdown {
+		box-shadow: none;
+		border-bottom: none;
+		background-color: transparent;
+	}
+
+	a.navbar-item:hover, 
+	.navbar-item.has-dropdown:hover .navbar-link {
+		background-color: rgba(35, 185, 118, 0.4);
+	}
+	
+	a.navbar-item,
+	a.navbar-item:hover, 
+	a.navbar-item.is-active, 
+	.navbar-link:hover, 
+	.navbar-link.is-active {
+		color: $dark-blue;
+	}
+	
+	a.navbar-item.is-active::after,
+	a.navbar-item:hover::after,
+	a.navbar-item:active::after {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.header--inner .navbar {
+		background-image: url("../img/header-phone.png");
+		background-size: 100%;
+	}
+}

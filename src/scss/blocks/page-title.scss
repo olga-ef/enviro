@@ -1,0 +1,149 @@
+.page-title {
+	margin-top: -88px;
+} 
+.page-title .container {
+	background-color: #f9f9f9;
+	position: relative;
+}
+
+.page-title__content {
+	padding: 160px 10px 0px 109px;
+}
+
+.page-title .title {
+	margin: 0;
+	margin-bottom: 32px;
+}
+
+.page-title a {
+	color: $dark-blue;
+	font-family: $title-font;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 0.65px;
+	line-height: 44px;
+	text-decoration: underline;
+}
+
+.page-title a:hover,
+.page-title a:active {
+	color: $green;
+}
+
+.page-title__subtitle {
+	margin: 0;
+	position: relative;
+	padding-left: 52px;
+	padding-right: 20px;
+	padding-bottom: 170px;
+	width: 458px;
+	color: $dark;
+	font-family: $title-font;
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: 0.62px;
+	line-height: 34px;
+
+	&::before {
+		content: "";
+		position: absolute;
+		display: block;
+		top: 15px;
+		left: 0;
+		width: 35px;
+		height: 3px;
+		background-color: $dark-blue;
+	}
+}
+
+.page-title__img {
+	padding-top: 250px;
+	text-align: right;
+	margin-bottom: -50px;
+}
+
+.page-title__text {
+	margin: 0;
+	position: absolute;
+	left: 160px;
+	bottom: 0 ;
+	transform: translateY(50%);
+}
+
+.page-title__text--gray {
+	left: 110px;
+	bottom: -240px;
+	transform: translateY(0);
+	width: 430px;
+	padding: 40px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background-color: rgba(242, 243, 245, 0.85);
+	z-index: 10;
+}
+.page-title__text--gray p {
+	font-family: $title-font;
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: 0.62px;
+	line-height: 34px;
+}
+
+@media(max-width: 1137px) {
+	.page-title__content {
+		padding-left: 50px;
+	}
+}
+
+@media(max-width: 1087px) {
+	.page-title__content {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 618px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.page-title__subtitle {
+		width: 100%;
+		padding-bottom: 0;
+	}
+
+	.page-title__img {
+		margin-bottom: 0;
+		padding-top: 50px;
+		padding-bottom: 200px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+	}
+
+	.page-title__text {
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%, 50%);
+		width: 618px;
+		padding: 40px;
+	}
+}
+
+@media(max-width: 767px) {
+	.page-title__subtitle {
+		font-size: 18px;
+	}
+
+	.page-title__img {
+		padding-bottom: 150px;
+	}
+
+	.page-title__text.note {
+		font-size: 18px;
+		width: calc(100% - 30px);
+	}
+
+	.page-title__text--gray {
+		width: calc(100% - 30px);
+		bottom: -80px;
+	}
+} 
